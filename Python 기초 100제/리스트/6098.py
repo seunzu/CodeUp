@@ -16,9 +16,9 @@ while True:
         break
 
     if (board[x][y+1] != 1):
-        y = y + 1
+        y += 1
     elif (board[x+1][y] != 1):
-        x = x + 1
+        x += 1
 
 for i in range(10):
     for j in range(10):
