@@ -7,8 +7,10 @@ int main() {
     
     for (int i = 0; i < 3; i++) {
         if (arr[i] % 2 == 0) {
-            printf("%d\n", arr[i]);
-        } 
+            printf("even\n");
+        } else {
+            printf("odd\n");
+        }
     }
     return 0;
 }
